@@ -59,10 +59,7 @@ const resolve = {
 }
 
 const config = {
-    entry: [
-        src + '/main.styl',
-        src + '/main.jsx',
-    ],
+    entry: src + '/main.jsx',
     output: {
         path: build,
         filename: '[hash].js'
