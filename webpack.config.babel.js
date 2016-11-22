@@ -12,6 +12,7 @@ const browsers = ['last 2 versions', 'ie >= 10']
 
 const res = path.resolve(__dirname, 'res')
 const src = path.resolve(__dirname, 'src')
+const build = path.resolve(__dirname, 'build')
 
 const loaders = [
     {
